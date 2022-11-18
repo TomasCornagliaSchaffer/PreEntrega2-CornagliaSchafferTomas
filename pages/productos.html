@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
-    <link rel="stylesheet" href="./Css/Style.css">
+    <link rel="shortcut icon" href="../images/dasfeld ok.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -58,30 +59,41 @@
 
 
 <body class="body">
-    <h2>Productos</h2>
-
-    <table border="1">
-        <tr>
-            <th>Producto</th>
-            <th>Contenido 1</th>
-            <th>Contenido 2</th>
-            <th>Contenido 3</th>
-        </tr>
-        <tr>
-            <th>Producto 1</th>
-            <td>Si</td>
-            <td>-</td>
-            <td>Si</td>
-        </tr>
-        <tr>
-            <th>Producto 2</th>
-            <td>-</td>
-            <td>Si</td>
-            <td>-</td>
-        </tr>
-
-
-    </table>
+    
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                U-Drapes
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Confeccionado en <code>polietileno satinado microgofrado de 50 micrones</code> con tratamiento antiestético y <code>adhesivos hipoalergénicos 3M</code></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Equipo especial para hombro
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Equipo de un solo uso, confeccionado en <code>tela no tejida SMS</code>, con doble envoltorio para facilitar su apertura en quirófano</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Envoltorios para Esterilización 
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Envoltorios para esterilización confeccionados en <code>tela no tejida SMS azul de distintos gramajes</code> en bolsones de 100 paños, según el siguiente detalle. </div>
+          </div>
+        </div>
+      </div>
+    
+    
 
     <p>
 
