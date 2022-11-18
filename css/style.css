@@ -12,12 +12,13 @@
 .body{
     background-color: #333;
     font-family: sans-serif;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     position: relative;
     padding-bottom: 3em;
     min-height: 100vh;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(175,231,249,1) 100%);
+    
 
 }
 
@@ -30,14 +31,46 @@
     padding-right: 25px;
     padding-top: 25px auto;
     border-color: blue;
-    display: inline;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+   
+    
 }
+
+/* quiero darle estilo a mi nav sin usar las clases de bootstrap */
+/* para eso aumento la especificidad creando una nueva clase */
+
+.navbar.navbar-expand-lg.bg-light.pegada {
+    position: sticky;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    
+    
+
+
+}
+
 
 
 .portada {
     font-weight: lighter;
 }
 
+.container {
+    display: flex;
+}
+
+.main {
+    flex: 6;
+
+}
+
+.aside {
+    flex: .5;
+}
 
 
 .cuerpo .h1 {
@@ -45,6 +78,7 @@
         font-weight: bold;
         color: aqua;
         overflow: auto;
+       
 
 
         }   
@@ -59,13 +93,6 @@
     width: 100%;
 }
 
-/* quiero darle estilo a mi nav sin usar las clases de bootstrap */
-/* para eso aumento la especificidad creando una nueva clase */
 
-.navbar.navbar-expand-lg.bg-light.pegada {
-    position: sticky;
-    position: fixed;
-    width: 100%;
 
-}
 
