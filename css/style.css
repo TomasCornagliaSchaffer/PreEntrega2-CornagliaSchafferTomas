@@ -1,5 +1,4 @@
 
-/* es solo a modo prueba, lo que hice mal y no se como modificar es resetee todo a cero desp de haber definido distintos diseños de cada una de las secciones */
 
 *{
     margin: 0;
@@ -60,3 +59,14 @@
     bottom: 0;
     width: 100%;
 }
+
+/* quiero darle estilo a mi nav sin usar las clases de bootstrap */
+/* para eso aumento la especificidad creando una nueva clase */
+
+.navbar.navbar-expand-lg.bg-light.pegada {
+    position: sticky;
+    position: fixed;
+    width: 100%;
+
+}
+
