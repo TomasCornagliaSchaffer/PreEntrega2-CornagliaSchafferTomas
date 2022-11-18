@@ -1,0 +1,63 @@
+
+/* es solo a modo prueba, lo que hice mal y no se como modificar es resetee todo a cero desp de haber definido distintos diseños de cada una de las secciones */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+
+.body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+
+
+.menu {
+    background-color: rgb(215, 222, 219);
+    border: 5 px solid black;
+    padding-left: 25px auto;
+    padding-right: 25px;
+    padding-top: 25px auto;
+    border-color: blue;
+    display: inline;
+}
+
+
+.portada {
+    font-weight: lighter;
+}
+
+
+
+.cuerpo .h1 {
+        font-size: medium;
+        font-weight: bold;
+        color: aqua;
+        overflow: auto;
+
+
+        }   
+
+
+.lateral{
+
+
+
+}
+
+.footer{
+    background-color: lightcoral;
+    padding: 0px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
